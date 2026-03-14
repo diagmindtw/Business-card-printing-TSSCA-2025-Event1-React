@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="english">
+  <head>
+    <title>Business card printing (TSSCA 2025 Event1)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/logo_ssp[1].svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <script
+      src="https://kit.fontawesome.com/65b47a30d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7042399e68.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/13926e41d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/8cf007fb22.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"
+      integrity="sha512-Z8CqofpIcnJN80feS2uccz+pXWgZzeKxDsDNMD/dJ6997/LSRY+W4NmEt9acwR+Gt9OHN0kkI1CTianCwoqcjQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf_viewer.min.css"
+      integrity="sha512-5cOE2Zw/F4SlIUHR/xLTyFLSAR0ezXsra+8azx47gJyQCilATjazEE2hLQmMY7xeAv/RxxZhs8w8zEL7dTsvnA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/sweetalert2@11.23.0/dist/sweetalert2.all.min.js"
+      integrity="sha256-+kMpHtNaVp0Vv0B9iX7tymEm7qv+6ASnck0/uuMeYNA="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.23.0/dist/sweetalert2.min.css"
+      integrity="sha256-RHjk4NC06Gzv9DRXsogGrVjIZOc71LxqhydWMwMDhEU="
+      crossorigin="anonymous"
+    />
+    <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-65691.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/05b4db5284.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/a0kuma/tssca2025activity1@V0.0.7/rdx.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-M8X86ETVZC"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-M8X86ETVZC');
+    </script>
+    <!-- Your body code here -->
+    <!-- <script type="text/javascript"> ... </script> -->
+    <script>
+
+      //!important![區段起始] 載入PDF (預)
+      const pdfUrl = "https://raw.githubusercontent.com/a0kuma/tssca2025activity1/refs/heads/main/dm2.pdf";
+      var container = null;// document.querySelector(".mainBC");
+
+      // Create & insert the canvas (match container size)
+      const canvas = document.createElement("canvas");
+      canvas.id = "mainC";
+      canvas.style.display = "block";
+      canvas.style.width = "100%";   // CSS sizing
+      canvas.style.height = "100%";  // CSS sizing
+      //!important! wait for DOM loadded ... container.appendChild(canvas);
+      var ctx = null;//canvas.getContext("2d");
+
+      // 一定要在 getDocument 之前設定，而且是指向「檔案 URL」，不是再用 <script> 來載入
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js";
+
+      let pdfDoc = null;
+      let page = null;
+
+      // Render the PDF page to fit inside the canvas (preserving aspect ratio)
+      async function renderToFit() {
+          if (!page) return;
+          // Match the canvas's internal pixel size to the container's current CSS size
+          // Use getBoundingClientRect to get pixel sizes (includes fractional pixels)
+          const { width: cssW, height: cssH } = container.getBoundingClientRect();
+          if (cssW <= 0 || cssH <= 0) return;
+          // Set backing store pixels (considering device pixel ratio for sharpness)
+          const dpr = window.devicePixelRatio || 1;
+          canvas.width = Math.max(1, Math.round(cssW * dpr));
+          canvas.height = Math.max(1, Math.round(cssH * dpr));
+          // Clear with a background (white letterbox)
+          ctx.save();
+          ctx.setTransform(1, 0, 0, 1, 0, 0); // reset any transforms
+          ctx.fillStyle = "#fff";
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          ctx.restore();
+          // Get the page's natural size at scale=1
+          const viewport = page.getViewport({ scale: 1 });
+          const naturalW = viewport.width;
+          const naturalH = viewport.height;
+          // Compute scale to FIT inside our canvas
+          const scale = Math.min(canvas.width / naturalW, canvas.height / naturalH);
+          // Render to an offscreen canvas at the scaled PDF size
+          const renderW = Math.floor(naturalW * scale);
+          const renderH = Math.floor(naturalH * scale);
+          const offscreen = document.createElement("canvas");
+          offscreen.width = renderW;
+          offscreen.height = renderH;
+          const renderCtx = offscreen.getContext("2d");
+          const renderViewport = page.getViewport({ scale });
+          await page.render({
+              canvasContext: renderCtx,
+              viewport: renderViewport
+          }).promise;
+          // Center the rendered page on the main canvas (letterbox)
+          const offsetX = Math.floor((canvas.width - renderW) / 2);
+          const offsetY = Math.floor((canvas.height - renderH) / 2);
+          // Draw the scaled page into our main canvas, accounting for DPR
+          ctx.drawImage(offscreen, offsetX, offsetY);
+      }
+      async function init() {
+          try {
+              // Load the PDF
+              pdfDoc = await pdfjsLib.getDocument({ url: pdfUrl }).promise;
+              // Get page 1 (change this if you want another page)
+              page = await pdfDoc.getPage(1);
+              // Initial render
+              await renderToFit();
+              // Re-render on container resize
+              const ro = new ResizeObserver(() => renderToFit());
+              ro.observe(container);
+              // Also re-render on DPR changes (some browsers fire this on zoom/monitor switch)
+              window.matchMedia(`(resolution: ${window.devicePixelRatio}dppx)`).addEventListener?.("change", renderToFit);
+              window.addEventListener("orientationchange", renderToFit);
+          } catch (err) {
+              console.error("Failed to load or render PDF:", err);
+          }
+      }
+      document.addEventListener('DOMContentLoaded', async () => {
+          container = document.querySelector(".mainBC");
+          container.appendChild(canvas);
+          ctx = canvas.getContext("2d");
+          await init();
+
+          //!important![區段起始] 叫RDX
+          attachBton();
+          renderBC(jsonData);
+          _jf.flush();
+
+      });
+    </script>
+  </body>
+</html>
